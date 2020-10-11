@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik:wght@900&display=swap");
+
+main {
+  background-color: #031d44;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  color: #5bba6f;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+h1 + p {
+  color: #5bba6f;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+#survey-form {
+  background: #04395e;
+  color: #5bba6f;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin: 15px;
+  padding: 15px;
+}
+
+.spaces-form {
+  border: 1px solid #2f6690;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  color: #443730;
+  display: block;
+  height: 40px;
+  padding: 5px;
+  width: 100%;
+}
+
+.spaces-group {
+  margin: 0 auto 1rem auto;
+  padding: 0.2rem;
+}
+
+label {
+  display: flex;
+  margin-bottom: 0.3rem;
+  margin-top: 0.6rem;
+}
+
+#comments {
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 120px;
+  padding: 5px;
+  resize: none;
+}
+
+#submit {
+  background-color: #031d44;
+  border: none;
+  border-radius: 3px;
+  color: #70a288;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  padding: 1em;
+  width: 100%;
+}
+
+#submit:hover {
+  background-color: #70a288;
+  color: #031d44;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  #survey-form {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 60%;
+  }
+
+  #comments {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 991px) {
+  #survey-form {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 55%;
+  }
+
+  #comments {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #survey-form {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 60%;
+  }
+
+  #comments {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}

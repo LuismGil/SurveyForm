@@ -1,0 +1,177 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <title>Survey Form</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <main id="main">
+    <div>
+      <header>
+        <h1 id="title"> Music Preferences Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us choose music for you</p>
+      </header>
+      <form id="survey-form">
+        <div class="spaces-group">
+          <label id="name-label" for="name">
+            Name
+          </label>
+          <input id="name" class="spaces-form" type="text" name="name" placeholder="Enter your name" required minlength="1" maxlength="35">
+        </div>
+        <div class="spaces-group">
+          <label id="email-label" for="email">
+            Email
+          </label>
+          <input id="email" class="spaces-form" type="email" name="email" placeholder="Enter your Email" required>
+        </div>
+        <div class="spaces-group">
+          <label id="number-label" for="number">
+            Age
+          </label>
+          <input id="number" class="spaces-form" type="number" name="number" min="12" max="99" placeholder="Enter your age">
+        </div>
+        <div class="spaces-group">
+          <p>Whats's your favorite genre musical?</p>
+          <select id="dropdown" class="spaces-form" name="genre" required>
+            <option disabled selected>Select your favorite genre musical
+            </option>
+            <option value="alternative">Alternative</option>
+            <option value="blues">Blues</option>
+            <option value="classical">Classical</option>
+            <option value="country">Country</option>
+            <option value="dance">Dance</option>
+            <option value="electronic">Electronic</option>
+            <option value="folk">Folk</option>
+            <option value="holiday">Holiday</option>
+            <option value="indie">Indie</option>
+            <option value="instrumental">Instrumental</option>
+            <option value="jazz">Jazz</option>
+            <option value="k-pop">K-pop</option>
+            <option value="latin">Latin</option>
+            <option value="metal">Metal</option>
+            <option value="new-age">New Age</option>
+            <option value="opera">Opera</option>
+            <option value="pop">Pop</option>
+            <option value="reggae">Reggae</option>
+            <option value="rock">Rock</option>
+            <option value="r&b/soul">R&B/Soul</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="spaces-group">
+          <p>How much would you recommend a friend to listen to your favorite musical genre?</p>
+          <label>
+            <input name="user-recommend" value="i would absolutely recommend" type="radio" checked="">I would absolutely recommend
+          </label>
+          <label>
+            <input name="user-recommend" value="maybe i would recommend" type="radio">Maybe I would recommend
+          </label>
+          <label>
+            <input name="user-recommend" value="I wouldn't recommend" type="radio">I wouldn't recommend
+          </label>
+        </div>
+        <div class="spaces-group">
+          <p>What do you consider to be the most popular musical genre in the world?</p>
+          <select id="most-popular" class="spaces-form" name="most popular" required="">
+            <option disabled="" selected="" value="">Select the most popular genre musical
+            </option>
+            <option value="alternative">Alternative</option>
+            <option value="blues">Blues</option>
+            <option value="classical">Classical</option>
+            <option value="country">Country</option>
+            <option value="dance">Dance</option>
+            <option value="electronic">Electronic</option>
+            <option value="folk">Folk</option>
+            <option value="holiday">Holiday</option>
+            <option value="indie">Indie</option>
+            <option value="instrumental">Instrumental</option>
+            <option value="jazz">Jazz</option>
+            <option value="k-pop">K-pop</option>
+            <option value="latin">Latin</option>
+            <option value="metal">Metal</option>
+            <option value="new-age">New Age</option>
+            <option value="opera">Opera</option>
+            <option value="pop">Pop</option>
+            <option value="reggae">Reggae</option>
+            <option value="rock">Rock</option>
+            <option value="r&b/soul">R&B/Soul</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="spaces-group">
+          <p>What other genre musical do you like?</p>
+          <label>
+            <input name="other-taste" value="alternative" type="checkbox">Alternative
+          </label>
+          <label>
+            <input name="other-taste" value="blues" type="checkbox">Blues
+          </label>
+          <label>
+            <input name="other-taste" value="classical" type="checkbox">Classical
+          </label>
+          <label>
+            <input name="other-taste" value="country" type="checkbox">Country
+          </label>
+          <label>
+            <input name="other-taste" value="dance" type="checkbox">Dance
+          </label>
+          <label>
+            <input name="other-taste" value="electronic" type="checkbox">Electronic
+          </label>
+          <label>
+            <input name="other-taste" value="folk" type="checkbox">Folk
+          </label>
+          <label>
+            <input name="other-taste" value="holiday" type="checkbox">Holiday
+          </label>
+          <label>
+            <input name="other-taste" value="indie" type="checkbox">Indie
+          </label>
+          <label>
+            <input name="other-taste" value="instrumental" type="checkbox">Instrumental
+          </label>
+          <label>
+            <input name="other-taste" value="jazz" type="checkbox">Jazz
+          </label>
+          <label>
+            <input name="other-taste" value="k-pop" type="checkbox">K-pop
+          </label>
+          <label>
+            <input name="other-taste" value="latin" type="checkbox">Latin
+          </label>
+          <label>
+            <input name="other-taste" value="metal" type="checkbox">Metal
+          </label>
+          <label>
+            <input name="other-taste" value="new-age" type="checkbox">New Age
+          </label>
+          <label>
+            <input name="other-taste" value="opera" type="checkbox">Opera
+          </label>
+          <label>
+            <input name="other-taste" value="pop" type="checkbox">Pop
+          </label>
+          <label>
+            <input name="other-taste" value="reggae" type="checkbox">Reggae
+          </label>
+          <label>
+            <input name="other-taste" value="rock" type="checkbox">Rock
+          </label>
+          <label>
+            <input name="other-taste" value="r&b/soul" type="checkbox">R&B/Soul
+          </label>
+          <label>
+            <input name="other-taste" value="other" type="checkbox">Other
+          </label>
+        </div>
+        <div class="spaces-group">
+          <p>Any comments or suggestions?</p>
+          <textarea id="comments" name="comment" placeholder="Enter your text here..."></textarea>
+        </div>
+        <div class="spaces-group">
+          <button id="submit" type="submit">Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </main>
